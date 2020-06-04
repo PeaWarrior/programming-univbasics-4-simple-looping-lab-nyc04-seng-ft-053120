@@ -23,6 +23,7 @@ def return_string_array(array)
   str_array = Array.new
   while count < array.length do
     str_array << array[count].to_s
+    count += 1
   end
   return str_array
 end
